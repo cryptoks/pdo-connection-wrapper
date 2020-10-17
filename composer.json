@@ -1,0 +1,27 @@
+{
+    "name": "adirona/pdo-connection",
+    "description": "Simple PHP library to make PDO connection",
+    "minimum-stability": "stable",
+    "keywords":[
+        "pdo",
+        "mysql",
+        "php",
+        "pdo-wrapper",
+        "pdo library"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Albian Sadiku"
+        }
+    ],
+    "license":"MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Connection.php"
+        ]
+    }
+}
