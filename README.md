@@ -34,5 +34,8 @@ $DatabaseInstance = new Connection([
 ```php
 $ConnectDatabase = $DatabaseInstance->connect();
 ```
+
+To get most of this PDO wrapper and PDO in general use also this repository (https://github.com/envms/fluentpdo).
+
 # You can find same example at examples folder of this repository.
 
